@@ -709,6 +709,41 @@ p {
   padding-left: 1.1rem;
   margin: 0 0 1.5rem;
 }
+/* Two-up founder / team portraits inside the About media column */
+.about__team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(0.7rem, 2vw, 1.1rem);
+  max-width: 100%;
+}
+.team-card {
+  margin: 0;
+}
+.about__team img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-md);
+}
+.team-card figcaption {
+  padding-top: 0.6rem;
+}
+.team-name {
+  display: block;
+  font-weight: 700;
+  color: var(--ink);
+  font-size: clamp(0.92rem, 0.88rem + 0.3vw, 1.02rem);
+  line-height: 1.2;
+}
+.team-role {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--orange);
+}
+
 @media (max-width: 820px) {
   .about__grid {
     grid-template-columns: 1fr;
@@ -717,6 +752,9 @@ p {
     width: 100%;
     max-width: 440px;
     margin-inline: auto;
+  }
+  .about__team {
+    max-width: 480px;
   }
 }
 

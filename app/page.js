@@ -156,16 +156,35 @@ export default function Home() {
         {/* =============================== ABOUT ============================== */}
         <section className="section section--cream2" id="about" aria-labelledby="about-title">
           <div className="container about__grid">
-            <div className="about__media">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/kamili-welcome.jpg"
-                alt="Kamili Behavioral Health Center welcome table with the practice's branding at a community event in Baltimore"
-                width="1200"
-                height="1500"
-                loading="lazy"
-              />
-              <span className="about__tag">Rooted in Baltimore</span>
+            <div className="about__media about__team">
+              <figure className="team-card">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/team-marlene.jpg"
+                  alt="Marlene Williams, LCSW-C, of Kamili Behavioral Health Center"
+                  width="760"
+                  height="950"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <span className="team-name">Marlene Williams</span>
+                  <span className="team-role">LCSW-C</span>
+                </figcaption>
+              </figure>
+              <figure className="team-card">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/team-provider.jpg"
+                  alt="L&rsquo;Tanya of Kamili Behavioral Health Center"
+                  width="760"
+                  height="950"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <span className="team-name">L&rsquo;Tanya</span>
+                  <span className="team-role">Kamili team</span>
+                </figcaption>
+              </figure>
             </div>
             <div className="about__body">
               <p className="eyebrow">Who We Are</p>
