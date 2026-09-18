@@ -218,6 +218,27 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ============================ REFLECTION =========================== */}
+        <section className="section reflect" aria-label="Our commitment">
+          <div className="container reflect__grid">
+            <div className="reflect__media">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/reflection.jpg"
+                alt="A person sitting comfortably in a calm room during a counseling session, taking a reflective moment"
+                width="1300"
+                height="812"
+                loading="lazy"
+              />
+            </div>
+            <blockquote className="reflect__quote">
+              Client-centered therapy where <span>your needs</span> are
+              prioritized.
+              <span className="reflect__by">The Kamili approach</span>
+            </blockquote>
+          </div>
+        </section>
+
         {/* ===================== PROCESS + CONSULTATION ====================== */}
         <section className="section" id="consultation" aria-labelledby="process-title">
           <div className="container process__grid">
