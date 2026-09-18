@@ -12,9 +12,9 @@ export default function Footer() {
               <img
                 src="/images/kamili-logo.png"
                 alt="Kamili Behavioral Health Center"
-                width="200"
-                height="125"
-                style={{ height: 32, width: 'auto' }}
+                width="1286"
+                height="344"
+                style={{ height: 30, width: 'auto' }}
               />
             </span>
             <p>
