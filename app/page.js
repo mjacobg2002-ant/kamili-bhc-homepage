@@ -168,28 +168,33 @@ export default function Home() {
               <span className="about__tag">Rooted in Baltimore</span>
             </div>
             <div className="about__body">
-              <p className="eyebrow">About Kamili</p>
+              <p className="eyebrow">Who We Are</p>
               <h2 className="section-title" id="about-title">
                 Born in Baltimore. Built to serve its people.
               </h2>
+              <p className="about__lead">
+                At the core of our practice is a deep commitment to helping
+                individuals reconnect with their inner strength. We offer
+                client-centered therapy that puts <em>you</em> first — your
+                story, your pace, your healing.
+              </p>
               <blockquote className="about__quote">
                 “We believe in Baltimore — its people, its culture, and its power
                 to heal.”
               </blockquote>
               <p>
-                Kamili was founded with a deep love for our city. Born and raised
-                here, our team has witnessed both the challenges and the
-                resilience of local communities — and built a practice to serve
-                them.
+                Born and raised in the heart of Baltimore, we&rsquo;ve witnessed
+                both the challenges and the incredible resilience of our
+                communities. That lived experience fuels our passion and purpose.
               </p>
               <p>
-                Our care is rooted in empathy, cultural understanding, and a
-                belief in the power of collective growth. We are honored to walk
-                alongside our clients as they reconnect with their own strength —
-                healing that is collaborative, never imposed.
+                This practice was founded with love for our city and a mission to
+                serve. We are honored to walk alongside our clients in their
+                journey, offering care rooted in empathy, cultural understanding,
+                and a belief in the power of collective growth.
               </p>
               <Button href="#consultation" variant="secondary" withArrow>
-                Learn About Kamili
+                Schedule a Consultation
               </Button>
             </div>
           </div>
