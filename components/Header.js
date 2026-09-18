@@ -28,6 +28,7 @@ export default function Header() {
   }, [open]);
 
   return (
+    <>
     <header className="header">
       <div className="container header__inner">
         <a href="#top" className="brand" aria-label="Kamili Behavioral Health Center home">
@@ -58,6 +59,7 @@ export default function Header() {
           </button>
         </nav>
       </div>
+    </header>
 
       <div className="mobile-nav" id="mobile-nav" data-open={open}>
         <div
@@ -98,6 +100,6 @@ export default function Header() {
           </Button>
         </div>
       </div>
-    </header>
+    </>
   );
 }
