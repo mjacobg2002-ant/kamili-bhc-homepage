@@ -90,16 +90,16 @@ export default function Home() {
             <div className="hero__media">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/therapy-conversation.jpg"
-                alt="A therapist and client in a warm, natural conversation in a comfortable, light-filled room"
-                width="1000"
-                height="1200"
+                src="/images/kamili-community.jpg"
+                alt="Kamili Behavioral Health Center team members and community members smiling together at a Baltimore outreach event"
+                width="1400"
+                height="1050"
                 fetchPriority="high"
               />
               <div className="hero__badge">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/images/kamili-mark.png" alt="" width="34" height="22" />
-                <span>Client-centered therapy in the heart of Baltimore</span>
+                <span>Serving our community in the heart of Baltimore</span>
               </div>
             </div>
           </div>
@@ -159,10 +159,10 @@ export default function Home() {
             <div className="about__media">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/baltimore-neighborhood.jpg"
-                alt="A tree-lined Baltimore rowhouse street in autumn, with brick homes and fallen leaves"
-                width="1000"
-                height="1250"
+                src="/images/kamili-welcome.jpg"
+                alt="Kamili Behavioral Health Center welcome table with the practice's branding at a community event in Baltimore"
+                width="1200"
+                height="1500"
                 loading="lazy"
               />
               <span className="about__tag">Rooted in Baltimore</span>
@@ -229,10 +229,10 @@ export default function Home() {
             <div className="reflect__media">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/reflection.jpg"
-                alt="A person sitting comfortably in a calm room during a counseling session, taking a reflective moment"
-                width="1300"
-                height="812"
+                src="/images/kamili-team-table.jpg"
+                alt="Two Kamili Behavioral Health Center team members welcoming visitors at their resource table"
+                width="1350"
+                height="844"
                 loading="lazy"
               />
             </div>
